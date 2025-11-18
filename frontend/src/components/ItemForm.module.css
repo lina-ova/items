@@ -1,0 +1,57 @@
+.toolbar {
+    display: flex;
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.toolbar input {
+    flex: 1;
+    padding: 0.65rem 0.9rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    background: #f9fafb;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+/* Better focus */
+.toolbar input:focus {
+    border-color: #2563eb;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    outline: none;
+}
+
+.toolbar button {
+    padding: 0.65rem 1.2rem;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.toolbar button:hover {
+    background: #1e4ed8;
+}
+
+.error {
+    margin-bottom: 1rem;
+    padding: 0.7rem 1rem;
+    background: #fee2e2;
+    border: 1px solid #fca5a5;
+    color: #b91c1c;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Mobile-friendly: inputs stack */
+@media (max-width: 600px) {
+    .toolbar {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+}
