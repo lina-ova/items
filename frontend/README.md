@@ -25,4 +25,39 @@ A simple, accessible, and scalable React application for managing a list of prod
 - CSS Modules for scoped styling
 - PropTypes for runtime type checking
 
+## Project Structure
 
+```text
+frontend/
+├─ src/
+│  ├─ components/      # Reusable components (e.g., ItemForm, ItemList)
+│  ├─ hooks/           # Custom React hooks
+│  ├─ api/             # API calls
+│  ├─ utils/           # Utility functions (validation)
+│  ├─ App.jsx          # Main app component
+│  └─ index.jsx        # Entry point
+├─ package.json
+└─ README.md
+```
+## Set up
+
+Clone the repository:
+```code
+git clone https://github.com/lina-ova/items.git
+cd frontend
+```
+
+Install dependencies:
+```code
+npm install
+```
+
+### Running the App
+
+To start the development server:
+```code
+npm start dev
+```
+
+
+The app will run on http://localhost:3000 by default.
