@@ -7,13 +7,15 @@ The backend provides an API for managing products, and the frontend is a user-fr
 
 ## Project Structure
 
+```text
 monorepo/
-├─ backend/ # FastAPI backend
-│ ├─ app/
-│ │ └─ main.py
-│ └─ requirements.txt
-├─ frontend/ # React frontend
-│ ├─ src/
-│ ├─ package.json
-│ └─ ...
+├─ backend/       # FastAPI backend
+│   ├─ app/
+│   │   └─ main.py
+│   └─ requirements.txt
+├─ frontend/      # React frontend
+│   ├─ src/
+│   ├─ package.json
+│   └─ ...
 └─ README.md
+```
